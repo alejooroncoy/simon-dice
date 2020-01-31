@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+* {
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  margin: 0;
+  background: #fd5e53;
+  height: 100vh;
+  background-image: url(https://lh4.googleusercontent.com/proxy/GcVBBS6O_wbvkYe3ehEZ0BcKhH3ddT_b5-fAd8A61bM-pM6u5LOuGNHS6q5Mc67XrMxi52gmkk11w6MpbChpxoAhjVm2CWkQ92EnGQ=w3840-h2160-p-k-no-nd-mv);
+  background-position: center;
+}
+
+.main {
+  width: 100%;
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gameboard {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 60vh;
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+}
+
+.celeste {
+  background: #22a6b3;
+  cursor: pointer;
+}
+
+.celeste.light {
+  background: #7ed6df;
+}
+
+.violeta {
+  background: #be2edd;
+  cursor: pointer;
+}
+
+.violeta.light {
+  background: #e056fd;
+}
+
+.naranja {
+  background: #f0932b;
+  cursor: pointer;
+}
+
+.naranja.light {
+  background: #ffbe76;
+}
+
+.verde {
+  background: #6ab04c;
+  cursor: pointer;
+}
+
+.verde.light {
+  background: #badc58;
+}
+
+.btn-start {
+  width: 400px;
+  height: 100px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  position: absolute;
+  top: calc(58% - 80px);
+  left: calc(50% - 203px);
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  -webkit-animation: centro .9s infinite;
+          animation: centro .9s infinite;
+}
+
+@-webkit-keyframes centro {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  75% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes centro {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  75% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.btn-start:active {
+  background-color: #cfd9db;
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 11rem;
+}
+
+.contador__h1 {
+  margin: 0;
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+
+.contador__tiempo {
+  font-size: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+
+.niveles {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  display: none;
+}
+
+#niveles {
+  font-size: 70px;
+}
+
+.aparicion {
+  display: inline;
+}
+/*# sourceMappingURL=juegohtml.css.map */

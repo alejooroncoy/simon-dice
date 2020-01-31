@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon dice</title>
+    <link rel="stylesheet" href="juegohtml.css">
+</head>
+<body>
+   <header class="header"> 
+    <div class="contador">
+        <h1 class="contador__h1">Contador:3</h1>
+        <div class="contador__tiempo">
+            <span id="minutos">0</span><span>:</span><span id="segundos">0
+            </span>
+        </div>      
+    </div>
+    <audio src="sonido-de-perdedor-efecto-de-sonido.mp3" class="audio" id="audio"></audio>
+</header>
+<main class="main">
+    <div class="gameboard">
+        <div id="celeste" class="color celeste left" data-color="celeste"></div>
+        <div id="violeta" class="color violeta right" data-color="violeta"></div>
+        <div id="naranja" class="color naranja left" data-color="naranja"></div>
+        <div id="verde" class="color verde right" data-color="verde"></div>
+        <button id="btnEmpezar" class="btn-start">Empezar a jugar!</button>
+      </div>
+      <div class="niveles" id="content__niveles">
+        <span>Nivel</span><span id="niveles"></span>
+    </div>
+    </main>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="juegohtml.js"></script>
+</body>
+</html>
