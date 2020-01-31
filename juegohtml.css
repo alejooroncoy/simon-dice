@@ -96,7 +96,7 @@ body {
   color: #2c3e50;
   font-size: 2.5rem;
   position: absolute;
-  top: calc(58% - 80px);
+  top: calc(64% - 80px);
   left: calc(50% - 203px);
   cursor: pointer;
   border-radius: 20px;
