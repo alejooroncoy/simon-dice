@@ -202,6 +202,7 @@ class juego {
                     swal(`Esperamos tu vuelta:'3`)
                     .then(() => 
                     {
+                        this.reiniciarNiveles()
                         this.iniciar()
                     })
                 })
@@ -240,6 +241,7 @@ class juego {
                     swal(`Esperamos tu vuelta:'3`)
                     .then(() => 
                     {
+                        this.reiniciarNiveles()
                         this.iniciar()
                     })
                 })
