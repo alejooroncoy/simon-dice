@@ -1,0 +1,24 @@
+{
+  "name": "Simon_dice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "juegohtml.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejooroncoy/simon-dice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejooroncoy/simon-dice/issues"
+  },
+  "homepage": "https://github.com/alejooroncoy/simon-dice#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
